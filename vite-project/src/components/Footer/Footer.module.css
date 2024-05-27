@@ -1,0 +1,82 @@
+.rectangle5746 {
+    position: absolute;
+    left: 0;
+    top: 6832px;
+    width: 100%;
+    height: 400px;
+    
+    
+    background:/* webpackIgnore: true */linear-gradient(180deg, #778640ff 0%, #414f0eff 100%);;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover, auto; */
+    background-size: cover;
+  background-position: center;
+  }
+  .file161 {
+    transform-origin: top left;
+    position: absolute;
+    /* left: 560.874px; */
+    top: 6733px;
+    width: 500px;
+    height: 500.874px;
+    background-image:/* webpackIgnore: true */ url('../../assets/footerLeft.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  }
+  .ex1 {
+    position: absolute;
+    left: 1198px;
+    top: 7100px;
+    width: 72.1816px;
+    height: 49.999px;
+    background-image:/* webpackIgnore: true */ url('../../assets/ex1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .telegram11 {
+    position: absolute;
+    left: 1300.4843px;
+    top: 7100px;
+    width: 64.5886px;
+    height: 49.7804px;
+    background-image:/* webpackIgnore: true */ url('../../assets/telegram11.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sNOWBELL {
+    color: #fff;
+    font-size: 60px;
+    font-family: Prosto One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: calc(50% - -449.5px);
+    top: 6900px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  .whenLifeGetsHotBeASnowbell {
+    color: #fff;
+    font-size: 20px;
+    font-family: Prosto One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.5em;
+    position: absolute;
+    left: calc(50% - -284px);
+    top: 7000px;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  
