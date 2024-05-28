@@ -9,9 +9,11 @@ import Tokenomics31 from "./components/Tokenomic/Tokenomics";
 import { createRoot } from "react-dom/client";
 
 import WelcomeCard from "./components/WelcomeCard/WelcomeCard";
+import CatInAction from "./components/CatInAction/CatInAction";
 
 function App() {
   return (
+    <>
     <div className="sm:w-full w-fit">
       <div className="m-auto pt-4 sticky -top-4 z-40 sm:w-[60%] w-full">
         <Navbar />
@@ -22,6 +24,10 @@ function App() {
       </div>
       <div className="m-auto mt-60 w-full">
         <MemeCoin />
+      </div>
+
+      <div className="m-auto mt-60 w-full">
+        <CatInAction />
       </div>
 
       <div id="roadmap" className="mt-4 pt-36 m-auto w-[60%]">
@@ -36,9 +42,11 @@ function App() {
         <Tokenomics31 />
       </div>
 
-      <div className="w-full mt-12">
+      <div className="mt-12">
         <Footer />
       </div>
+
+      {/**/}
       {/*
      
     
@@ -53,6 +61,11 @@ function App() {
 
        */}
     </div>
+
+  
+
+
+    </>
   );
 }
 

@@ -4,7 +4,7 @@ import logo from "../../assets/vecteezy_uniswap-uni-glass-crypto-coin-3d-illustr
 
 const HowToBuy = () => {
   return (
-    <div className="bg-black text-white min-h-screen flex items-center justify-center p-10">
+    <div className=" text-white min-h-screen flex items-center justify-center p-10">
       <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-10 space-y-10 md:space-y-0 justify-center relative">
         <div className="absolute bottom-18 -mt-24 top-0">
           <img

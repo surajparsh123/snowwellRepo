@@ -6,12 +6,12 @@ import classes from './Footer.module.css';
 
 const Footer = memo(function Footer(props = {}) {
   return (
-    <div className='border border-blue-900 w-full main'>
+    <div className={classes.main}>
       <div className={classes.rectangle5746}>
 
       </div>
 
-      <div className='border'>
+      <div className=''>
       <div className={classes.file161}></div>
       <div className={classes.ex1}>
 
