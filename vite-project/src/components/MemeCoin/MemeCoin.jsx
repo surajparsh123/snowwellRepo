@@ -6,14 +6,14 @@ const url = "https://s3-alpha-sig.figma.com/img/e77f/5a93/ee731ace263988b1ac0cb8
 
 const MemeCoin = () => {
   return (
-    <div>
+    <div className="w-[60%] m-auto">
       <div
-        className={`${classes?.bgcolor} p-6 rounded-lg flex items-center w-[90%] m-auto z-20 relative`}
+        className={`${classes?.bgcolor} p-6 rounded-lg flex items-center m-auto z-20 relative`}
       >
-        <div className="absolute -left-10">
+        <div className="absolute sm:-left-12 -left-20">
             <img src= {url} className="w-40"/>
         </div>
-        <div className="p-6 rounded-lg max-w-[60%] m-auto">
+        <div className="p-6 rounded-lg w-[80%] m-auto">
           <h2 className="text-4xl font-bold mb-4 text-white text-center">What is $SNBL Coin?</h2>
           <p className="mb-4 text-white text-center">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -23,8 +23,8 @@ const MemeCoin = () => {
             only five centuries, but also the leap into electronic typesetting.
           </p>
         </div>
-        <div className="absolute -right-44 top-12">
-            <img src= {url} className="w-72"/>
+        <div className="absolute sm:-right-44 -right-44  top-12">
+            <img src= {url} className="w-64"/>
         </div>
       </div>
     </div>

@@ -12,21 +12,23 @@ import WelcomeCard from "./components/WelcomeCard/WelcomeCard";
 
 function App() {
   return (
-    <div className="w-full flex flex-col justify-center items-center">
-      <div className="m-auto pt-4 w-fit sticky -top-4 z-40">
+    <div className="sm:w-full w-fit">
+      <div className="m-auto pt-4 sticky -top-4 z-40 sm:w-[60%] w-full">
         <Navbar />
       </div>
-      <div className="m-auto w-[50%] pt-4">
+
+      <div className="pt-4 sm:w-[50%] w-full m-auto">
         <WelcomeCard />
       </div>
-      <div className="w-[70%] m-auto mt-60">
+      <div className="m-auto mt-60 w-full">
         <MemeCoin />
       </div>
+
       <div id="roadmap" className="mt-4 pt-36 m-auto w-[60%]">
         <Roadmap />
       </div>
 
-      <div id="HowToBuy" className="w-[60%] pt-36">
+      <div id="HowToBuy" className="sm:w-[60%] w-full m-auto pt-36">
         <HowToBuy />
       </div>
 
@@ -34,13 +36,22 @@ function App() {
         <Tokenomics31 />
       </div>
 
+      <div className="w-full mt-12">
+        <Footer />
+      </div>
+      {/*
+     
+    
+
+      
+
+    
+
       <div id="gallery" className="mt-12 pt-36 m-auto w-[60%]">
         <Gallery />
       </div>
 
-      <div className="w-full">
-        <Footer />
-      </div>
+       */}
     </div>
   );
 }

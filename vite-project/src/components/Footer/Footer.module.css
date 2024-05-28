@@ -1,82 +1,121 @@
 .rectangle5746 {
-    position: absolute;
-    left: 0;
-    top: 6832px;
-    width: 100%;
-    height: 400px;
-    
-    
-    background:/* webpackIgnore: true */linear-gradient(180deg, #778640ff 0%, #414f0eff 100%);;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover, auto; */
-    background-size: cover;
+  position: absolute;
+  /* left: 0; */
+  /* top: 0px; */
+  width: 100%;
+  height: 500px;
+  background-image: url("../../assets/footer.png");
+
+  /* background: linear-gradient(180deg, #778640ff 0%, #414f0eff 100%); */
+  background-size: cover;
   background-position: center;
-  }
-  .file161 {
-    transform-origin: top left;
+  /* margin-bottom: -50px; */
+}
+
+.file161 {
+  position: absolute;
+  /* top: 6733px;
+  bottom:0; */
+  width: 500px;
+  height: 500.874px;
+  background-image: url("../../assets/footerLeft.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ex1,
+.telegram11 {
+  position: absolute;
+  /* top: 7100px; */
+  width: 72.1816px;
+  height: 49.999px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ex1 {
+  left: 83%;
+  margin-top: 16%;
+  /* left: 1198px; */
+  background-image: url("../../assets/ex1.png");
+}
+
+.telegram11 {
+  /* left: 1300.4843px; */
+  left: 90%;
+  margin-top: 16%;
+  width: 64.5886px;
+  height: 49.7804px;
+  background-image: url("../../assets/telegram11.png");
+}
+
+.sNOWBELL {
+  color: #fff;
+  font-size: 60px;
+  font-family: Prosto One, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 85%;
+  margin-top: 6%;
+  /* top: 6900px; */
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.whenLifeGetsHotBeASnowbell {
+  color: #fff;
+  font-size: 20px;
+  font-family: Prosto One, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.5em;
+  position: absolute;
+  left: 74%;
+  margin-top: 12%;
+  /* top: 7000px; */
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  white-space: nowrap;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .rectangle5746 {
+    width: 94vh;
     position: absolute;
-    /* left: 560.874px; */
-    top: 6733px;
-    width: 500px;
-    height: 500.874px;
-    background-image:/* webpackIgnore: true */ url('../../assets/footerLeft.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
   }
+
+  .sNOWBELL {
+    left: 60vh;
+    margin-top: 20%;
+
+    /* transform: translateX(-50%); */
+  }
+
+  .whenLifeGetsHotBeASnowbell {
+    position: absolute;
+    left: 60vh;
+    margin-top: 43%;
+    font-size: 14px;
+  }
+
   .ex1 {
-    position: absolute;
-    left: 1198px;
-    top: 7100px;
-    width: 72.1816px;
-    height: 49.999px;
-    background-image:/* webpackIgnore: true */ url('../../assets/ex1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    left: 60vh;
+    margin-top: 55%;
+    background-image: url("../../assets/ex1.png");
   }
+
   .telegram11 {
-    position: absolute;
-    left: 1300.4843px;
-    top: 7100px;
+    /* left: 1300.4843px; */
+    left: 50vh;
+    margin-top: 55%;
     width: 64.5886px;
     height: 49.7804px;
-    background-image:/* webpackIgnore: true */ url('../../assets/telegram11.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../../assets/telegram11.png");
   }
-  .sNOWBELL {
-    color: #fff;
-    font-size: 60px;
-    font-family: Prosto One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-    position: absolute;
-    left: calc(50% - -449.5px);
-    top: 6900px;
-    width: min-content;
-    height: min-content;
-    white-space: nowrap;
-    flex-direction: column;
-    transform: translateX(-50%);
-  }
-  .whenLifeGetsHotBeASnowbell {
-    color: #fff;
-    font-size: 20px;
-    font-family: Prosto One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-    letter-spacing: 0.5em;
-    position: absolute;
-    left: calc(50% - -284px);
-    top: 7000px;
-    width: min-content;
-    height: min-content;
-    text-align: end;
-    align-items: end;
-    white-space: nowrap;
-    flex-direction: column;
-    transform: translateX(-50%);
-  }
-  
+}

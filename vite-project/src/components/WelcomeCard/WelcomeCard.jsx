@@ -2,7 +2,7 @@ import React from "react";
 
 const WelcomeCard = () => {
   return (
-    <div className="m-auto">
+    <div className="w-full">
       <h1 className="text-white text-8xl w-full text-center">
         Welcome to Snowbell Cat
       </h1>
