@@ -20,6 +20,13 @@ export const Navbar = memo(function Style46(props) {
     document.getElementById("Tokenomics").scrollIntoView({ behavior: "smooth" });
   };
 
+
+  const handleScrollToCat = () => {
+    document.getElementById("CatAction").scrollIntoView({ behavior: "smooth" });
+  };
+
+  
+
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.center}>
@@ -28,11 +35,11 @@ export const Navbar = memo(function Style46(props) {
       <div className={classes.ex1}></div>
       <div className={classes.telegram11}></div>
       <div className={classes.header}>
-        <div className={classes.catInAction}>Cat In Action</div>
+        <div onClick={handleScrollToCat} className={classes.catInAction}>Cat In Action</div>
         <div onClick={handleScrollToTokenomics} className={classes.tokenomics}>Tokenomics</div>
-        <div onClick={handleScrollToGallery} className={classes.gallery}>
+        {/* <div onClick={handleScrollToGallery} className={classes.gallery}>
           Gallery
-        </div>
+        </div> */}
 
         <div className={classes.buySNBL}>Buy $SNBL</div>
 

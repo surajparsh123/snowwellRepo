@@ -26,7 +26,7 @@ function App() {
         <MemeCoin />
       </div>
 
-      <div className="m-auto mt-60 w-full">
+      <div id="CatAction" className="m-auto pt-36 mt-60 w-full">
         <CatInAction />
       </div>
 
